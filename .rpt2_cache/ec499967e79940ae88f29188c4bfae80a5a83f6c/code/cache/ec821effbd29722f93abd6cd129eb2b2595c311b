@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport 'zone.js';\r\nimport 'reflect-metadata';\r\nimport { NgModule } from '@angular/core';\r\nimport { RouterModule } from '@angular/router';\r\nimport { rootRouterConfig } from './chris.app.routes';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { HttpModule } from '@angular/http';\r\nimport { AppComponent } from './chris.app.component';\r\nimport { HomeComponent, AboutComponent } from './../../pages/index';\r\nvar AppModule = (function () {\r\n    function AppModule() {\r\n    }\r\n    return AppModule;\r\n}());\r\nAppModule = tslib_1.__decorate([\r\n    NgModule({\r\n        declarations: [\r\n            AppComponent,\r\n            HomeComponent,\r\n            AboutComponent,\r\n        ],\r\n        imports: [\r\n            BrowserModule,\r\n            HttpModule,\r\n            RouterModule.forRoot(rootRouterConfig, { useHash: true })\r\n        ],\r\n        providers: [],\r\n        bootstrap: [AppComponent]\r\n    })\r\n], AppModule);\r\nexport default AppModule;\r\n//# sourceMappingURL=chris.app.module.js.map",
+  "map": {
+    "version": 3,
+    "file": "chris.app.module.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/app/chris/chris.app.module.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,SAAS,CAAC;AACjB,OAAO,kBAAkB,CAAC;AAC1B,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAA;AACxC,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AACtD,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAE3C,OAAO,EAAE,YAAY,EAAE,MAAM,uBAAuB,CAAC;AACrD,OAAO,EAAE,aAAa,EAAE,cAAc,EAAE,MAAM,qBAAqB,CAAC;AAkBpE,IAAqB,SAAS;IAA9B;IAAgC,CAAC;IAAD,gBAAC;AAAD,CAAC,AAAjC,IAAiC;AAAZ,SAAS;IAf7B,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,YAAY;YACZ,aAAa;YACb,cAAc;SACf;QACD,OAAO,EAAE;YACP,aAAa;YACb,UAAU;YACV,YAAY,CAAC,OAAO,CAAC,gBAAgB,EAAE,EAAE,OAAO,EAAE,IAAI,EAAE,CAAC;SAC1D;QACD,SAAS,EAAE,EACV;QACD,SAAS,EAAE,CAAE,YAAY,CAAE;KAC5B,CAAC;GACmB,SAAS,CAAG;eAAZ,SAAS"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/chris/chris.app.module.d.ts",
+    "text": "import 'zone.js';\r\nimport 'reflect-metadata';\r\nexport default class AppModule {\r\n}\r\n"
+  }
+}

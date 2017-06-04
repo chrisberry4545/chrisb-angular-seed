@@ -1,0 +1,17 @@
+{
+  "code": "import HomeComponent from './home.component';\r\nexport { HomeComponent };\r\n//# sourceMappingURL=index.js.map",
+  "map": {
+    "version": 3,
+    "file": "index.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/app/home/index.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,OAAO,aAAa,MAAM,kBAAkB,CAAC;AAE7C,OAAO,EACH,aAAa,EAChB,CAAC"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/home/index.d.ts",
+    "text": "import HomeComponent from './home.component';\r\nexport { HomeComponent };\r\n"
+  }
+}

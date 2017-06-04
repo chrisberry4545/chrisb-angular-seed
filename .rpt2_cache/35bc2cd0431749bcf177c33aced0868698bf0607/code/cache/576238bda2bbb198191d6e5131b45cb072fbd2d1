@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport { Component, ViewEncapsulation } from '@angular/core';\r\nvar HomeComponent = (function () {\r\n    function HomeComponent() {\r\n    }\r\n    HomeComponent.prototype.test = function () {\r\n        return 1;\r\n    };\r\n    return HomeComponent;\r\n}());\r\nHomeComponent = tslib_1.__decorate([\r\n    Component({\r\n        selector: 'home-component',\r\n        template: \"//- <h3 class=\\\"c-home u-orange o-color-yellow\\\">Component</h3>\\n\\n//- <div class=\\\"other\\\"></div>\\n\\nh3.c-home.u-orange.o-color-yellow\",\r\n        styles: [\r\n            \"\\n@import \\\"./../../../styles/_settings.scss\\\";\\n\\n.c-home {\\n    color: blue;\\n    color: $test-color;\\n}\",\r\n        ],\r\n        encapsulation: ViewEncapsulation.None\r\n    })\r\n], HomeComponent);\r\nexport default HomeComponent;\r\n//# sourceMappingURL=home.component.js.map",
+  "map": {
+    "version": 3,
+    "file": "home.component.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/pages/home/home.component.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,EAAC,SAAS,EAAE,iBAAiB,EAAC,MAAM,eAAe,CAAC;AAoB3D,IAAqB,aAAa;IAAlC;IAIA,CAAC;IAHU,4BAAI,GAAX;QACI,MAAM,CAAC,CAAC,CAAC;IACb,CAAC;IACL,oBAAC;AAAD,CAAC,AAJD,IAIC;AAJoB,aAAa;IAlBjC,SAAS,CAAC;QACP,QAAQ,EAAE,gBAAgB;QAC1B,QAAQ,EAAE,yIAIoB;QAC9B,MAAM,EAAE;YACJ,4GAMN;SACG;QACD,aAAa,EAAE,iBAAiB,CAAC,IAAI;KACxC,CAAC;GACmB,aAAa,CAIjC;eAJoB,aAAa"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/pages/home/home.component.d.ts",
+    "text": "export default class HomeComponent {\r\n    test(): number;\r\n}\r\n"
+  }
+}

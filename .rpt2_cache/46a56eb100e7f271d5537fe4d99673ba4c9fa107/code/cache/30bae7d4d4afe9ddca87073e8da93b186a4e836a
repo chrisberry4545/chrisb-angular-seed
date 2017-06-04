@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport { Component, ViewEncapsulation } from '@angular/core';\r\nvar AboutComponent = (function () {\r\n    function AboutComponent() {\r\n    }\r\n    AboutComponent.prototype.test = function () {\r\n        return 1;\r\n    };\r\n    return AboutComponent;\r\n}());\r\nAboutComponent = tslib_1.__decorate([\r\n    Component({\r\n        selector: 'about-component',\r\n        template: \"<h3 class=\\\"c-home\\\">About</h3>\\n\\n<div class=\\\"other\\\"></div>\\n\\n<div class=\\\"about-stuff\\\">Stuff</div>\",\r\n        styles: [\r\n            \".c-home {\\n    color: blue;\\n}\\n\\n.about-stuff {\\n    color: grey;\\n}\"\r\n        ],\r\n        encapsulation: ViewEncapsulation.None\r\n    })\r\n], AboutComponent);\r\nexport default AboutComponent;\r\n//# sourceMappingURL=about.component.js.map",
+  "map": {
+    "version": 3,
+    "file": "about.component.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/pages/about/about.component.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,EAAC,SAAS,EAAE,iBAAiB,EAAC,MAAM,eAAe,CAAC;AAoB3D,IAAqB,cAAc;IAAnC;IAIA,CAAC;IAHU,6BAAI,GAAX;QACI,MAAM,CAAC,CAAC,CAAC;IACb,CAAC;IACL,qBAAC;AAAD,CAAC,AAJD,IAIC;AAJoB,cAAc;IAlBlC,SAAS,CAAC;QACP,QAAQ,EAAE,iBAAiB;QAC3B,QAAQ,EAAE,0GAIuB;QACjC,MAAM,EAAE;YACJ,uEAMN;SACG;QACD,aAAa,EAAE,iBAAiB,CAAC,IAAI;KACxC,CAAC;GACmB,cAAc,CAIlC;eAJoB,cAAc"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/pages/about/about.component.d.ts",
+    "text": "export default class AboutComponent {\r\n    test(): number;\r\n}\r\n"
+  }
+}

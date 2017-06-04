@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport { Component } from '@angular/core';\r\nvar HomeComponent = (function () {\r\n    function HomeComponent() {\r\n    }\r\n    HomeComponent.prototype.test = function () {\r\n        return 1;\r\n    };\r\n    return HomeComponent;\r\n}());\r\nHomeComponent = tslib_1.__decorate([\r\n    Component({\r\n        selector: 'home-component',\r\n        template: \"<h3 class=\\\"c-home\\\">Component</h3>\\n\\n<div class=\\\"other\\\"></div>\",\r\n        styles: [\r\n            \".other {\\n    width: 10px;\\n    height: 10px;\\n    background: black;\\n}\",\r\n            \".c-home {\\n    color: blue;\\n}\"\r\n        ]\r\n    })\r\n], HomeComponent);\r\nexport default HomeComponent;\r\n//# sourceMappingURL=home.component.js.map",
+  "map": {
+    "version": 3,
+    "file": "home.component.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/app/home/home.component.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,EAAC,SAAS,EAAC,MAAM,eAAe,CAAC;AAkBxC,IAAqB,aAAa;IAAlC;IAIA,CAAC;IAHU,4BAAI,GAAX;QACI,MAAM,CAAC,CAAC,CAAC;IACb,CAAC;IACL,oBAAC;AAAD,CAAC,AAJD,IAIC;AAJoB,aAAa;IAhBjC,SAAS,CAAC;QACP,QAAQ,EAAE,gBAAgB;QAC1B,QAAQ,EAAE,oEAEY;QACtB,MAAM,EAAE;YACJ,0EAIN;YACM,gCAEN;SACG;KACJ,CAAC;GACmB,aAAa,CAIjC;eAJoB,aAAa"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/home/home.component.d.ts",
+    "text": "export default class HomeComponent {\r\n    test(): number;\r\n}\r\n"
+  }
+}

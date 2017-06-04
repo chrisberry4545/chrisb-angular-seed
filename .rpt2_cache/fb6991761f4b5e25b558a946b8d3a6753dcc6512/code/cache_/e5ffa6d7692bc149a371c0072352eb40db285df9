@@ -1,0 +1,17 @@
+{
+  "code": "import * as _angular_common from '@angular/common';\r\nimport * as _angular_compiler from '@angular/compiler';\r\nimport * as _angular_core from '@angular/core';\r\nimport * as _angular_http from '@angular/http';\r\nimport * as _angular_platformBrowser from '@angular/platform-browser';\r\nimport * as _angular_platformBrowserDynamic from '@angular/platform-browser-dynamic';\r\nimport * as _angular_router from '@angular/router';\r\nexport default {\r\n    _angular_common: _angular_common,\r\n    _angular_compiler: _angular_compiler,\r\n    _angular_core: _angular_core,\r\n    _angular_http: _angular_http,\r\n    _angular_platformBrowser: _angular_platformBrowser,\r\n    _angular_platformBrowserDynamic: _angular_platformBrowserDynamic,\r\n    _angular_router: _angular_router\r\n};\r\n//# sourceMappingURL=vendor.js.map",
+  "map": {
+    "version": 3,
+    "file": "vendor.js",
+    "sourceRoot": "",
+    "sources": [
+      "../src/vendor.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,OAAO,KAAK,eAAe,MAAM,iBAAiB,CAAC;AACnD,OAAO,KAAK,iBAAiB,MAAM,mBAAmB,CAAC;AACvD,OAAO,KAAK,aAAa,MAAM,eAAe,CAAC;AAC/C,OAAO,KAAK,aAAa,MAAM,eAAe,CAAC;AAC/C,OAAO,KAAK,wBAAwB,MAAM,2BAA2B,CAAC;AACtE,OAAO,KAAK,+BAA+B,MAAM,mCAAmC,CAAC;AACrF,OAAO,KAAK,eAAe,MAAM,iBAAiB,CAAC;AAEnD,eAAe;IACb,eAAe,iBAAA;IACf,iBAAiB,mBAAA;IACjB,aAAa,eAAA;IACb,aAAa,eAAA;IACb,wBAAwB,0BAAA;IACxB,+BAA+B,iCAAA;IAC/B,eAAe,iBAAA;CAChB,CAAC"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/vendor.d.ts",
+    "text": "import * as _angular_common from '@angular/common';\r\nimport * as _angular_compiler from '@angular/compiler';\r\nimport * as _angular_core from '@angular/core';\r\nimport * as _angular_http from '@angular/http';\r\nimport * as _angular_platformBrowser from '@angular/platform-browser';\r\nimport * as _angular_platformBrowserDynamic from '@angular/platform-browser-dynamic';\r\nimport * as _angular_router from '@angular/router';\r\ndeclare const _default: {\r\n    _angular_common: typeof _angular_common;\r\n    _angular_compiler: typeof _angular_compiler;\r\n    _angular_core: typeof _angular_core;\r\n    _angular_http: typeof _angular_http;\r\n    _angular_platformBrowser: typeof _angular_platformBrowser;\r\n    _angular_platformBrowserDynamic: typeof _angular_platformBrowserDynamic;\r\n    _angular_router: typeof _angular_router;\r\n};\r\nexport default _default;\r\n"
+  }
+}

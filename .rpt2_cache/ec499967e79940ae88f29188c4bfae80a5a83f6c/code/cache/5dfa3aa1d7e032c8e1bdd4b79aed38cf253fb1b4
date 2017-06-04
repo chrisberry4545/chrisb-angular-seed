@@ -1,0 +1,17 @@
+{
+  "code": "import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\nimport AppModule from './chris.app.module';\r\nvar platformRef = platformBrowserDynamic();\r\nfunction main() {\r\n    return platformRef.bootstrapModule(AppModule)[\"catch\"](function (err) { return console.error(err); });\r\n}\r\nswitch (document.readyState) {\r\n    case 'interactive':\r\n    case 'complete':\r\n        main();\r\n        break;\r\n    case 'loading':\r\n    default:\r\n        document.addEventListener('DOMContentLoaded', function () { return main(); });\r\n}\r\n//# sourceMappingURL=chris.main.browser.js.map",
+  "map": {
+    "version": 3,
+    "file": "chris.main.browser.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/app/chris/chris.main.browser.ts"
+    ],
+    "names": [],
+    "mappings": "AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,mCAAmC,CAAC;AAC3E,OAAO,SAAS,MAAM,oBAAoB,CAAC;AAE3C,IAAM,WAAW,GAAG,sBAAsB,EAAE,CAAC;AAE7C;IACI,MAAM,CAAC,WAAW,CAAC,eAAe,CAAC,SAAS,CAAC,CACxC,OAAK,CAAA,CAAC,UAAA,GAAG,IAAI,OAAA,OAAO,CAAC,KAAK,CAAC,GAAG,CAAC,EAAlB,CAAkB,CAAC,CAAC;AAC1C,CAAC;AAGD,MAAM,CAAC,CAAC,QAAQ,CAAC,UAAU,CAAC,CAAC,CAAC;IAC5B,KAAK,aAAa,CAAC;IACnB,KAAK,UAAU;QACb,IAAI,EAAE,CAAC;QACP,KAAK,CAAC;IACR,KAAK,SAAS,CAAC;IACf;QACE,QAAQ,CAAC,gBAAgB,CAAC,kBAAkB,EAAE,cAAM,OAAA,IAAI,EAAE,EAAN,CAAM,CAAC,CAAC;AAChE,CAAC"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/chris/chris.main.browser.d.ts",
+    "text": ""
+  }
+}

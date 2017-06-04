@@ -1,0 +1,9 @@
+[
+  {
+    "flatMessage": "Cannot find module '@angular/platform-browser-dynamic'.",
+    "category": 1,
+    "code": 2307,
+    "type": "semantic",
+    "fileLine": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/src/app/kite/kite.main.browser.ts (1,40)"
+  }
+]

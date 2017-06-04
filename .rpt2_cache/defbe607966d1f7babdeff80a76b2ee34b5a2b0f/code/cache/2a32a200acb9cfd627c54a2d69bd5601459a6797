@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport { Component, ViewEncapsulation } from '@angular/core';\r\nvar AppComponent = (function () {\r\n    function AppComponent() {\r\n    }\r\n    return AppComponent;\r\n}());\r\nAppComponent = tslib_1.__decorate([\r\n    Component({\r\n        selector: 'app-component',\r\n        template: \"<div>\\n\\t<router-outlet></router-outlet>\\n</div>\\n\",\r\n        styles: [\r\n            \"$test-color: green;\",\r\n            \"\",\r\n            \"\",\r\n            \"\",\r\n            \"\",\r\n            \"\",\r\n            \".u-orange {\\n    color: orange !important;\\n}\"\r\n        ],\r\n        encapsulation: ViewEncapsulation.None\r\n    })\r\n], AppComponent);\r\nexport { AppComponent };\r\n//# sourceMappingURL=kite.app.component.js.map",
+  "map": {
+    "version": 3,
+    "file": "kite.app.component.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../../src/app/kite/kite.app.component.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,EAAC,SAAS,EAAE,iBAAiB,EAAC,MAAM,eAAe,CAAC;AAsB3D,IAAa,YAAY;IAAzB;IACA,CAAC;IAAD,mBAAC;AAAD,CAAC,AADD,IACC;AADY,YAAY;IApBxB,SAAS,CAAC;QACP,QAAQ,EAAE,eAAe;QACzB,QAAQ,EAAE,oDAGb;QACG,MAAM,EAAE;YACJ,qBAAqB;YACrB,EAAE;YAEF,EAAE;YACF,EAAE;YACF,EAAE;YACF,EAAE;YACF,+CAEN;SACG;QACD,aAAa,EAAE,iBAAiB,CAAC,IAAI;KACxC,CAAC;GACW,YAAY,CACxB;SADY,YAAY"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/kite/kite.app.component.d.ts",
+    "text": "export declare class AppComponent {\r\n}\r\n"
+  }
+}

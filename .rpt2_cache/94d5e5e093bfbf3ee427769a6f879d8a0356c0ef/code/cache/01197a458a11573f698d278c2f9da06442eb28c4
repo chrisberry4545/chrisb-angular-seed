@@ -1,0 +1,17 @@
+{
+  "code": "import { HomeComponent } from './home/index';\r\nexport var rootRouterConfig = [\r\n    { path: '', redirectTo: 'home', pathMatch: 'full' },\r\n    { path: 'home', component: HomeComponent },\r\n];\r\n//# sourceMappingURL=app.routes.js.map",
+  "map": {
+    "version": 3,
+    "file": "app.routes.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../src/app/app.routes.ts"
+    ],
+    "names": [],
+    "mappings": "AAEA,OAAO,EAAE,aAAa,EAAE,MAAM,cAAc,CAAC;AAE7C,MAAM,CAAC,IAAM,gBAAgB,GAAW;IACpC,EAAE,IAAI,EAAE,EAAE,EAAE,UAAU,EAAE,MAAM,EAAE,SAAS,EAAE,MAAM,EAAE;IACnD,EAAE,IAAI,EAAE,MAAM,EAAE,SAAS,EAAE,aAAa,EAAE;CAC7C,CAAC"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/app.routes.d.ts",
+    "text": "import { Routes } from '@angular/router';\r\nexport declare const rootRouterConfig: Routes;\r\n"
+  }
+}

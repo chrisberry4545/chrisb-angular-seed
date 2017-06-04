@@ -1,0 +1,6 @@
+{
+  "code": "import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\nimport AppModule from './kite.app.module';\r\nvar platformRef = platformBrowserDynamic();\r\nfunction main() {\r\n    return platformRef.bootstrapModule(AppModule)[\"catch\"](function (err) { return console.error(err); });\r\n}\r\n// support async tag or hmr\r\nswitch (document.readyState) {\r\n    case 'interactive':\r\n    case 'complete':\r\n        main();\r\n        break;\r\n    case 'loading':\r\n    default:\r\n        document.addEventListener('DOMContentLoaded', function () { return main(); });\r\n}\r\n",
+  "map": {
+    "mappings": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nimport { Component } from '@angular/core';\r\nvar AppComponent = (function () {\r\n    function AppComponent() {\r\n    }\r\n    return AppComponent;\r\n}());\r\nAppComponent = tslib_1.__decorate([\r\n    Component({\r\n        selector: 'app-component',\r\n        templateUrl: './app.component.html'\r\n    })\r\n], AppComponent);\r\nexport { AppComponent };\r\n//# sourceMappingURL=app.component.js.map",
+  "map": {
+    "version": 3,
+    "file": "app.component.js",
+    "sourceRoot": "",
+    "sources": [
+      "../../src/app/app.component.ts"
+    ],
+    "names": [],
+    "mappings": ";AAAA,OAAO,EAAC,SAAS,EAAC,MAAM,eAAe,CAAC;AAMxC,IAAa,YAAY;IAAzB;IACA,CAAC;IAAD,mBAAC;AAAD,CAAC,AADD,IACC;AADY,YAAY;IAJxB,SAAS,CAAC;QACP,QAAQ,EAAE,eAAe;QACzB,WAAW,EAAE,sBAAsB;KACtC,CAAC;GACW,YAAY,CACxB;SADY,YAAY"
+  },
+  "dts": {
+    "name": "/Users/chrisb/Documents/Dev/chrisb-angular-seed/dist/app/app.component.d.ts",
+    "text": "export declare class AppComponent {\r\n}\r\n"
+  }
+}
