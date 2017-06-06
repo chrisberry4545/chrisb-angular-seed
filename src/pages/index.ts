@@ -1,7 +1,2 @@
-import AboutComponent from './about/about.component';
-import HomeComponent from './home/home.component';
-
-export {
-    AboutComponent,
-    HomeComponent,
-};
+export { default as AboutComponent } from './about/about.component';
+export { default as HomeComponent } from './home/home.component';

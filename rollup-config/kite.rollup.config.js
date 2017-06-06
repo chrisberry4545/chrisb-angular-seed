@@ -4,6 +4,10 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';;
 import angular from 'rollup-plugin-angular';
 import pug from 'rollup-plugin-pug';
+import sass from 'node-sass';
+import CleanCSS from 'clean-css';
+
+const cssmin = new CleanCSS();
 
 export default {
  entry: 'src/app/kite/kite.main.browser.ts',
@@ -11,7 +15,14 @@ export default {
  format: 'iife',
  moduleName: 'vendor',
  plugins: [
-   angular(),
+   angular({
+     preprocessors: {
+        style: (scss, path) => {
+            const css = sass.renderSync({ data: scss }).css;
+            return cssmin.minify(css).styles;
+        },
+      }
+    }),
    pug(),
    typescript(),
    alias({ rxjs: __dirname + '/node_modules/rxjs' }),

@@ -1,12 +1,11 @@
-import {Component, ViewEncapsulation} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'home-component',
-    templateUrl: './home.component.pug',
     styleUrls: [
         './home.component.scss',
     ],
-    encapsulation: ViewEncapsulation.None
+    templateUrl: './home.component.html',
 })
 export default class HomeComponent {
     public test() {

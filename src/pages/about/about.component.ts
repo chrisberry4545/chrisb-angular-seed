@@ -1,12 +1,11 @@
-import {Component, ViewEncapsulation} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'about-component',
-    templateUrl: './about.component.html',
     styleUrls: [
-        './about.component.scss'
+        './about.component.scss',
     ],
-    encapsulation: ViewEncapsulation.None
+    templateUrl: './about.component.html',
 })
 export default class AboutComponent {
     public test() {

@@ -1,0 +1,8 @@
+$color: brown;
+
+@import './src/app/kite/kite.app.component.scss';
+
+.other-test {
+    color: $color;
+    color: $test-setting;
+}

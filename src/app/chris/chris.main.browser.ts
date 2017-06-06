@@ -5,7 +5,9 @@ const platformRef = platformBrowserDynamic();
 
 function main() {
     return platformRef.bootstrapModule(AppModule)
-        .catch(err => console.error(err));
+        .catch((err) => {
+          throw new Error(err);
+        });
 }
 
 // support async tag or hmr
